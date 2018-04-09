@@ -303,17 +303,17 @@
 	    }
     }
     //雪花制造
-    var bg = document.getElementsByClassName('bg')[0];
-    var int = setInterval(function(){
-        var snow_num = document.getElementsByClassName('snow');
-        console.log(snow_num.length);
-        if(snow_num.length>1000){
-            for(var c=0;c<snow_num.length;c++){
-                snow_num[c].remove();
-            }
-        }
-        Snow();
-    },1000)
+    // var bg = document.getElementsByClassName('bg')[0];
+    // var int = setInterval(function(){
+    //     var snow_num = document.getElementsByClassName('snow');
+    //     console.log(snow_num.length);
+    //     if(snow_num.length>1000){
+    //         for(var c=0;c<snow_num.length;c++){
+    //             snow_num[c].remove();
+    //         }
+    //     }
+    //     Snow();
+    // },1000)
     function Snow(){
         var q = Math.round(Math.random()*40)+30;//随机生成雪花的数量
             for(var i=0;i<q;i++){
