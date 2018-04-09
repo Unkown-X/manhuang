@@ -1,0 +1,129 @@
+.right_Af{
+	width:916px;
+	height:86px;
+	/*background:yellow;*/
+	margin:0 auto;
+	border-bottom:1px solid #D5D5D5;
+}
+.right_Af>strong {
+	display:inline-block;
+	line-height:87px;
+	color:#515151;
+	font-size:30px;	
+	margin:0px 0 0 27px;
+}
+.right_Af>span {
+	color:#515151;
+	font-size:15px;	
+	padding:0 0 0 10px;
+}
+.right_Af>p {
+	float:right;
+	font-size:14px;
+	color:#515151;
+	margin:56px 20px 0 0px;
+	padding:0 0 0 20px;
+	background:url(../images/sprite.png)no-repeat -209px -295px;
+}
+/*视频 壁纸 原画 截图*/
+.right_Bf {
+	width:916px;
+	/*height:44px;*/
+/*	background:skyblue;*/
+	margin:38px auto 0 auto;
+	text-align:center;
+}
+.right_Bf>a {
+	width:166px;
+	height:44px;
+	line-height:44px;
+	display:inline-block;
+	font-size:18px;
+	color:#7D7D7D;
+	border:1px solid transparent;
+	transform:rotateY(0deg);
+	transition:transform 1s;
+}
+.right_Bf>a:hover {
+	border:1px solid #D8D8D8;
+	color:#D55656;
+	transform:rotateY(360deg);
+}
+.right_Bf>.News{
+	border:1px solid #D8D8D8;
+	color:#D55656;
+}
+/*新闻列表*/
+
+.news_list {
+	width:916px;
+	/*height:800px;*/
+	/*background:skyblue;*/
+	margin: 60px auto 0 auto;
+}
+
+.news_list>li {
+	padding:20px 0 10px 10px;
+	font-size:16px;
+	border-bottom:1px dashed #c8c8c8;
+}
+.news_list>li:hover a {
+	animation:shock 3s linear 1;
+}
+@keyframes shock {
+	0%{
+		color:#515151;
+		margin:0px 0 0px 0px;
+	}
+	25%{
+		color:red;
+		margin:0px 0 10px 0px;
+	}
+	50%{
+		margin:0px 0 0px 0px;
+	}
+	75%{
+		color:purple;
+		margin:0px 0 20px 0px;
+	}
+	100%{
+		color:#515151;
+		margin:0px 0 0px 0px;
+	}
+}
+.news_list strong {
+	color:#515151;
+	font-weight:normal;
+	float:left;
+}
+.news_list a {
+	width:800px;
+	display:inline-block;
+	color:#515151;
+	padding:0 0 0 10px;
+	overflow:hidden;
+	float:left;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.news_list span {
+	font-size:14px;
+	color:#9c9c9c;
+	float:left;
+	margin:5px 0 0 0;
+}
+.right_Lf {
+	width:916px;
+	margin:40px auto 40px auto;
+	color:#515151;
+	font-size:15px;
+	text-align:center;
+}
+.right_Lf a {
+	color:#515151;
+	margin:0 0 0 10px;
+}
+/*去除公共样式中content_right的固定高度*/
+.content_center .content_right{
+	height:auto;
+}

@@ -1,0 +1,238 @@
+.right_Af{
+	width:916px;
+	height:86px;
+	/*background:yellow;*/
+	margin:0 auto;
+	border-bottom:1px solid #D5D5D5;
+}
+.right_Af>strong {
+	display:inline-block;
+	line-height:87px;
+	color:#515151;
+	font-size:30px;	
+	margin:0px 0 0 27px;
+}
+.right_Af>span {
+	color:#515151;
+	font-size:15px;	
+	padding:0 0 0 10px;
+}
+.right_Af>p {
+	float:right;
+	font-size:14px;
+	color:#515151;
+	margin:56px 20px 0 0px;
+	padding:0 0 0 20px;
+	background:url(../images/sprite.png)no-repeat -209px -295px;
+}
+/*视频 壁纸 原画 截图*/
+.right_Bf {
+	width:916px;
+	/*height:44px;*/
+/*	background:skyblue;*/
+	margin:38px auto 0 auto;
+	text-align:center;
+}
+.right_Bf>a {
+	width:166px;
+	height:44px;
+	line-height:44px;
+	display:inline-block;
+	font-size:18px;
+	color:#7D7D7D;
+	border:1px solid transparent;
+	margin:0 20px 0 0;
+}
+.right_Bf>a:hover {
+	border:1px solid #D8D8D8;
+	color:#D55656;
+}
+.right_Bf>.pc_download{
+	border:1px solid #D8D8D8;
+	color:#D55656;
+}
+.right_Cf {
+	width:836px;
+	height:150px;
+	margin:50px auto 0 auto;
+	/*background:pink;*/
+}
+.right_Cf>a{
+	display:block;
+}
+.green_download {
+	width:406px;
+	height:150px;
+	float:right;
+	background:#5dc28f;
+	transition:background 1s;
+}
+.green_download:hover {
+	background:darkgreen;
+}
+.green_download>i {
+	width:51px;
+	height:51px;
+	float:left;
+	background:url(../images/download.png)no-repeat 0 0;
+}
+.green_download>strong {
+	width:35px;
+	height:48px;
+	position:absolute;
+	background:url(../images/download.png)no-repeat 0px -60px;
+	margin:58px 0 0 51px;
+}
+.green_download>p {
+	width:100px;
+	height:28px;
+	color:#fff;
+	font-size:24px;
+	margin:55px auto 0 auto;
+}
+.green_download>span {
+	display:block;
+	color:#1b6f45;
+	font-size:18px;
+	margin:8px 0 0 154px;
+}
+.right_Cf .split_download {
+	width:406px;
+	height:69px;
+	color:#fff;
+	font-size:24px;
+	line-height:69px;
+	text-align:center;
+	float:left;
+	background:#6c95d3;
+}
+ .right_Cf .thunder_download {
+	width:406px;
+	height:69px;
+	color:#fff;
+	font-size:24px;
+	line-height:69px;
+	text-align:center;
+	float:left;
+	background:#cc6866;
+	margin: 12px 0 0 0;
+}
+/*游戏相关下载*/
+.right_Df {
+	width:916px;
+	margin: 30px auto 0 auto;
+	overflow: hidden;
+}
+.right_Df>p{
+	width:916px;
+	font-size: 24px;
+	margin: 20px auto 20px auto;
+	padding: 0 0 20px 30px;
+	border-bottom: 1px solid #e7e5e5;
+}
+.orther_download {
+	width: 876px;
+	height: 356px;
+	/*background: skyblue;*/
+	position: relative;
+	margin: 40px auto 0 auto;
+	font-size: 14px;
+}
+.xunyou {
+	width: 826px;
+	height: 57px;
+	margin: 0 auto 0 auto;
+	/*background: yellow;*/
+}
+.xunyou>img {
+	float: left;
+}
+.xunyou>a {
+	width: 131px;
+	height: 41px;
+	color: #fff;
+	line-height: 41px;
+	text-align: center;
+	display:inline-block;
+	background: #727085;
+	float: left;
+	margin: 4px 0 0 30px;
+}
+.orther_download >p {
+	margin: 10px 0 0 22px;
+}
+.orther_download strong {
+	font-weight: normal;
+	color: #ff6868;
+}
+
+.orthers {
+	width: 860px;
+	height: 237px;
+	margin: 20px 0 0 22px;
+	/*background: green;*/
+}
+.orthers>li {
+	width: 202px;
+	height: 217px;
+	float: left;
+	text-align: center;
+	margin: 0 10px 0 0;
+}
+.orthers>li p {
+	margin: 10px 0 0 0;
+}
+.orthers>li a {
+	width: 131px;
+	height: 41px;
+	line-height: 41px;
+	text-align: center;
+	color: #fff;
+	display: block;
+	background: #727085;
+	margin: 10px auto 0 auto;
+}
+.orthers img {
+	transition:transform 1s;
+	transform:rotateY(0deg);
+}
+.orthers li:hover  img{
+	transform:rotateY(720deg);
+}
+/*配置要求*/
+.lowset {
+	width: 413px;
+	margin: 30px 0 0 40px;
+	float: left;
+}
+.lowset h5 {
+	height: 41px;
+	line-height:41px;
+	font-size: 14px;
+	font-weight:normal;
+	text-align: center;
+	background: #eaeaea;
+}
+.lowset li {
+	font-size: 14px;
+	text-align: left;
+	margin: 10px 0 0 40px;
+}
+.topset {
+	width: 413px;
+	margin: 30px 0 0 0px;
+	float: left;
+}
+.topset h5 {
+	height: 41px;
+	line-height:41px;
+	font-size: 14px;
+	font-weight:normal;
+	text-align: center;
+	background: #eaeaea;
+}
+.topset li {
+	font-size: 14px;
+	text-align: left;
+	margin: 10px 0 0 40px;
+}
